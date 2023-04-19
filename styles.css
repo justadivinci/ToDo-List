@@ -1,0 +1,54 @@
+/* styles.css */
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #181818;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px; /* increased width by 50% */
+    background-color: #333;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* ... other styles ... */
+
+li {
+    background-color: #555;
+    padding: 10px 15px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.task-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+}
+
+button.delete {
+    padding: 2px 6px;
+    background-color: #444;
+    border: 1px solid #777;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+
+/* ... other styles ... */
